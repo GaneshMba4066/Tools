@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Job Co-Pilot Pro",
+  "version": "2.0",
+  "description": "Intelligent assistive job application autofill and cover letter generator using Google Gemini API.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Gemini Job Co-Pilot"
+  }
+}
