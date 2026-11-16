@@ -335,3 +335,4 @@ copyCoverBtn.addEventListener("click", () => {
     }, 2500);
   });
 });
+

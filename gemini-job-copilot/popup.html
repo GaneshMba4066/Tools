@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -110,7 +111,9 @@
       color: var(--text-muted);
     }
 
-    input, textarea, select {
+    input,
+    textarea,
+    select {
       width: 100%;
       background: var(--input-bg);
       border: 1px solid var(--border);
@@ -123,7 +126,9 @@
       transition: border-color 0.2s;
     }
 
-    input:focus, textarea:focus, select:focus {
+    input:focus,
+    textarea:focus,
+    select:focus {
       outline: none;
       border-color: var(--primary);
     }
@@ -246,6 +251,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <div class="title">
@@ -312,7 +318,8 @@
     <label for="apiKey">Gemini API Key</label>
     <div class="row-flex">
       <input type="password" id="apiKey" placeholder="AIzaSy..." style="margin-bottom: 8px;">
-      <button id="toggleKeyBtn" class="secondary-btn" style="width: auto; margin-top: 0; margin-bottom: 8px; padding: 7px 10px;">👁️</button>
+      <button id="toggleKeyBtn" class="secondary-btn"
+        style="width: auto; margin-top: 0; margin-bottom: 8px; padding: 7px 10px;">👁️</button>
     </div>
 
     <label for="modelSelect">Gemini Model</label>
@@ -336,4 +343,5 @@
 
   <script src="popup.js"></script>
 </body>
+
 </html>
